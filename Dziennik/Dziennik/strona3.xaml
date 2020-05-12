@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Dziennik.strona3">
+    <ScrollView>
+        <StackLayout>
+            <Image Source="pobrane.jpg"  VerticalOptions="Center"/>
+            <Entry x:Name="Email" Placeholder="Email" HorizontalOptions="Fill" HorizontalTextAlignment="Start" BackgroundColor="#A7A7A7" PlaceholderColor="#000000" TextColor="#010101"  />
+            <Entry x:Name="Hasło" IsPassword="True" Placeholder="Hasło" HorizontalOptions="Fill" HorizontalTextAlignment="Start" BackgroundColor="#A7A7A7" PlaceholderColor="#000000" TextColor="#010101" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Dziennik.strona2">
+    <ScrollView>
+        <StackLayout>
+
+            <Image Source="pobrane.jpg"  VerticalOptions="Center"/>
+
+
+
+
+
+            <Frame BackgroundColor="#3867B2">
+                <Button Text="uczen" Clicked="Ucz" TextColor="#000000" HorizontalOptions="Fill" BorderColor="#FF0101" BackgroundColor="#656565" FontAttributes="Bold" FontFamily="" FontSize="Micro" VerticalOptions="Start" Scale="1"/>
+            </Frame>
+            <Frame BackgroundColor="#3867B2">
+                <Button Text="nauczyciel" Clicked="naucz" TextColor="#000000" HorizontalOptions="Fill" BorderColor="#FF0101" FontAttributes="Bold" FontFamily="" FontSize="Micro" VerticalOptions="Start" Scale="1" BackgroundColor="#656565" />
+            </Frame>
+            <Frame BackgroundColor="#3867B2">
+                <Button Text="dyrektor" Clicked="dyr" TextColor="#000000" HorizontalOptions="Fill" BorderColor="#FF0101" BackgroundColor="#656565" FontAttributes="Bold" FontFamily="" FontSize="Micro" VerticalOptions="Start" Scale="1"/>
+            </Frame>
+
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

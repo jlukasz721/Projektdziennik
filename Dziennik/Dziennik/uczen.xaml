@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Dziennik.uczen" >
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Visual="Material" >
+        <Image Source="pobrane.jpg"  VerticalOptions="Center"/>
+        <Entry x:Name="Email" Placeholder="Email" HorizontalOptions="Fill" HorizontalTextAlignment="Start" BackgroundColor="#A7A7A7" PlaceholderColor="#000000" TextColor="#010101"  />
+        <Entry x:Name="Imię" Placeholder="Imię" HorizontalOptions="Fill" BackgroundColor="#A7A7A7" PlaceholderColor="#000000" TextColor="#010101"/>
+        <Entry x:Name="Nazwisko" Placeholder="Nazwisko" HorizontalOptions="Fill" BackgroundColor="#A7A7A7" PlaceholderColor="#000000" TextColor="#010101"/>
+        <Entry x:Name="Hasło" IsPassword="True" Placeholder="Hasło" HorizontalOptions="Fill" HorizontalTextAlignment="Start" BackgroundColor="#A7A7A7" PlaceholderColor="#000000" TextColor="#010101" />
+        <Button Text="Rejestracja" Clicked="rejestracja"  HorizontalOptions="Center" BorderColor="#FF0101" BackgroundColor="#48FC05" FontAttributes="Bold" FontFamily="" FontSize="Micro" />
+
+        <Label x:Name="autoryzacj" TextColor="#FF0000" Visual="Material" TextDecorations="Underline" HorizontalOptions="Center" FontAttributes="Bold" />
+    </StackLayout>
+        </ScrollView>
+
+</ContentPage>
